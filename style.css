@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header,
@@ -13,6 +14,14 @@ body {
 
 .header {
     justify-content: space-between;
+}
+
+.header-links {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .footer {
