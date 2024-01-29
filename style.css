@@ -8,6 +8,15 @@ body {
 .footer {
     display: flex;
     background-color: #1F2937;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.footer {
+    justify-content: center;
 }
 
 .container {
