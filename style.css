@@ -41,6 +41,28 @@ body {
     background-color: #1F2937;
 }
 
+.hero-right {
+    background-color: grey;
+    color: #E5E7EB;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 16px;
+}
+
 #information {
     background-color: #FFFFFF;
 }
