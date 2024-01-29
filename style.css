@@ -7,17 +7,21 @@ body {
 }
 
 .header,
-.footer {
+.footer,
+#header {
     display: flex;
     background-color: #1F2937;
     align-items: center;
 }
 
 .header {
+    max-width: 800px;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
     justify-content: space-between;
     font-size: 24px;
     color: #F9FAF8;
-    padding: 0 16px;
 }
 
 .header-links {
@@ -35,13 +39,19 @@ body {
 }
 
 .container {
+    max-width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.buffer {
+    flex-grow: 1;
+}
+
 #hero {
     background-color: #1F2937;
+    display: flex;
 }
 
 .hero-right {
@@ -72,6 +82,10 @@ body {
 
 #information {
     background-color: #FFFFFF;
+    display: flex;
+}
+
+#information > .container {
     flex-direction: column;
 }
 
@@ -109,6 +123,7 @@ body {
 
 #testimonial {
     background-color: #E5E7EB;
+    display: flex;
 }
 
 #testimonial-content {
@@ -131,6 +146,7 @@ body {
 
 #call-to-action {
     background-color: #FFFFFF;
+    display: flex;
 }
 
 #cta-content {
