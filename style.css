@@ -52,7 +52,8 @@ body {
     color: #F9FAF8;
 }
 
-.hero-secondary {
+.hero-secondary,
+.cta-signup-text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -122,4 +123,20 @@ body {
 
 #call-to-action {
     background-color: #FFFFFF;
+}
+
+#cta-content {
+    background-color: #3882F6;
+}
+
+.cta-header-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    font-size: 20px;
+    color: #F9FAF8;
 }
