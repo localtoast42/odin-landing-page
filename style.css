@@ -9,3 +9,23 @@ body {
     display: flex;
     background-color: #1F2937;
 }
+
+.container {
+    display: flex;
+}
+
+#hero {
+    background-color: #1F2937;
+}
+
+#information {
+    background-color: #FFFFFF;
+}
+
+#testimonial {
+    background-color: #E5E7EB;
+}
+
+#call-to-action {
+    background-color: #FFFFFF;
+}
