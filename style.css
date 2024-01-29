@@ -1,4 +1,5 @@
 body {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -118,10 +119,12 @@ body {
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
+    margin: 0;
 }
 
 .subquote {
     font-weight: 800;
+    margin: 0;
 }
 
 #call-to-action {
