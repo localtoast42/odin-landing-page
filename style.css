@@ -65,6 +65,39 @@ body {
 
 #information {
     background-color: #FFFFFF;
+    flex-direction: column;
+}
+
+#info-content {
+    gap: 50px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    text-align: center;
+}
+
+.info-image {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
+
+.info-subtext {
+    color: #1F2937;
+    margin: 0;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
 
 #testimonial {
