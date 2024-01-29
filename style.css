@@ -30,6 +30,8 @@ body {
 
 .footer {
     justify-content: center;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .container {
